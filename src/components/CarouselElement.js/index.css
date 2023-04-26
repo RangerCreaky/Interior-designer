@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+.mantine-UnstyledButton-root svg {
+    color: white;
+}
+
+.carouselElement {
+    background: url("../../../public/assets/images/carousel1.jpg");
+    position: relative;
+    z-index: -2;
+}
+
+.carouselElement::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    /* opacity: 10%; */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.carousel-1-header {
+    font-family: 'Rowdies', cursive;
+}
+
+.icons svg {
+    margin: 0 5px;
+}
